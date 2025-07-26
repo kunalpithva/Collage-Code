@@ -45,6 +45,23 @@ namespace ConsoleApp1
             Console.WriteLine("| : " + (a | b));
             Console.WriteLine("~0 : " + (~c));
 
+            Console.WriteLine("Array");
+            string[] cars = { "BMW", "NishanGTR", "Toyota" };
+            Console.WriteLine(cars[1]);
+
+            Console.WriteLine("For Loop"); 
+            for (int i=1; i<5; i++)
+            { 
+            Console.WriteLine(i);
+            }
+
+            Console.WriteLine("");
+            Console.WriteLine("");
+            Console.WriteLine("");
+            Console.WriteLine("");
+
+
+
             Console.ReadLine();
 
         }
